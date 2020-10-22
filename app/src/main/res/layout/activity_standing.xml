@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+
+        >
+        <TableRow>
+            <TextView
+                android:id="@+id/standing_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="place"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                />
+            <TextView
+                android:id="@+id/standing_team"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="team"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                />
+            <TextView
+                android:id="@+id/standing_WL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="WL"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+</RelativeLayout>
+
